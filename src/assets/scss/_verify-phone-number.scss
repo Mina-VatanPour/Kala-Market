@@ -1,0 +1,129 @@
+/*verify-phone-number-----------------------*/
+
+.message-light {
+  width: 100%;
+  padding: 15px 10px;
+  height: auto;
+  margin: 10px 0;
+}
+
+.message-light .massege-light-send {
+  width: 100%;
+  padding: 20px 5px;
+  background: #f9f9f9;
+  margin: 15px auto;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.message-light .massege-light-send .form-edit-number {
+  width: 260px;
+  display: block;
+  text-align: right;
+  margin: 0 auto;
+}
+
+.message-light .massege-light-send .form-edit-number a.edit-number-link {
+  background: #8a8a8a;
+  display: inline-block;
+  margin-top: 10px;
+  color: #fff;
+  border-radius: 20px;
+  padding: 0 15px;
+  line-height: 30px;
+}
+
+.message-light .account-box-verify-content {
+  padding: 0 30px;
+  margin: 30px 0 0;
+}
+
+.message-light .account-box-verify-content .form-account {
+  width: 100%;
+  text-align: center;
+}
+
+.message-light .account-box-verify-content .form-account .form-account-title {
+  color: #383838;
+  font-weight: 700;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+.message-light .account-box-verify-content .form-account .lines-number-input {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  direction: ltr;
+  text-align: center;
+}
+
+.message-light .account-box-verify-content .form-account .lines-number-input input.line-number-account {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 0;
+  border-bottom: 4px solid #383838;
+  margin: 0 4px;
+  outline: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: #383838;
+}
+
+.message-light .account-box-verify-content .form-account .lines-number-input input.line-number-account:focus {
+  border-bottom: 4px solid #2ecfff;
+  color: #2ecfff;
+}
+
+.message-light .receive-verify-code {
+  width: 200px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 50px;
+  margin: 30px auto 0;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+  z-index: 0;
+}
+
+#countdown-verify-end {
+  display: inline-block;
+  margin-bottom: -7px;
+  font-size: 16px;
+  margin-top: 0;
+}
+
+#countdown-verify-end span {
+  float: left;
+}
+
+#countdown-verify-end span.day {
+  display: none;
+}
+
+#countdown-verify-end span.hour {
+  display: none;
+}
+
+.link-border-verify {
+  color: #9e9e9e !important;
+  border-bottom: 1px dashed #9e9e9e;
+  background-color: transparent;
+  font-weight: 500;
+  padding: 5px 0;
+}
+
+.message-light .account-footer {
+  width: 100%;
+  text-align: center;
+  margin: 40px 0 0;
+}
+
+.message-light .account-footer a {
+  color: #1ca2bd;
+  border-bottom: 1px dashed #1ca2bd;
+}

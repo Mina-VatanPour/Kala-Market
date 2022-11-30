@@ -1,0 +1,52 @@
+/* 404----------------------------*/
+
+.d-404 {
+  width: 100%;
+  padding: 68px 0;
+  text-align: center;
+  line-height: 22px;
+  float: right;
+  background: #fff;
+  margin: 20px 0;
+  border: 1px solid #eee;
+  border-radius: 20px;
+}
+
+.d-404-title {
+  width: 100%;
+  text-align: center;
+  color: #626161;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.d-404 .d-404-actions {
+  margin: 40px auto;
+  width: 100%;
+}
+
+.d-404 .d-404-actions .d-404-action-primary {
+  border-radius: 8px;
+  padding: 8px 40px;
+  color: #fff;
+  border: none;
+  min-width: 161px;
+  margin: 10px 19.5px 46px;
+  text-decoration: none;
+  background-color: #3cc5ed;
+  border: 1px solid #1e9fc4;
+  transition: all 400ms ease;
+}
+
+.d-404 .d-404-actions .d-404-action-primary:hover {
+  opacity: 0.8;
+  transition: all 200ms ease;
+}
+
+.d-404 .d-404-image {
+  margin: 0 auto;
+}
+
+.d-404 .d-404-image img {
+  max-width: 100%;
+}

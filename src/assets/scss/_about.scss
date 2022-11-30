@@ -1,0 +1,54 @@
+/* about-------------------------- */
+
+.about {
+  width: 100%;
+  box-shadow: 0 12px 12px 0 hsl(0deg 0% 71% / 11%);
+  background-color: #fff;
+  border: 1px solid #eee;
+  margin: 14px auto;
+  padding-bottom: 60px;
+  line-height: 22px;
+  display: inline-block;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.about .about-us-head {
+  min-height: 500px;
+  /*background: url(../images/head-about.jpg) no-repeat 50%;*/
+  background-size: cover;
+  margin-bottom: 0;
+}
+
+.about .about-us-head .about-us-head-inner {
+  background-color: rgb(52 205 251 / 45%);
+  width: 100%;
+  height: 100%;
+  padding: 75px 100px;
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+}
+
+.about .about-us-head .about-us-head-inner .about-us-head-content p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 2.5;
+}
+
+.about .page-content-about {
+  padding: 5px 100px;
+}
+
+.about .page-content-about .page-content-about-paragraph {
+  margin: 20px 0;
+  display: block;
+}
+
+.about .page-content-about .page-content-about-paragraph p {
+  font-size: 14px;
+  line-height: 2.5;
+  color: #535353;
+  direction: rtl;
+  text-align: right;
+}

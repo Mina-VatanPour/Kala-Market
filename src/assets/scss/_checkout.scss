@@ -1,0 +1,269 @@
+/* checkout-----------------------*/
+
+.checkout {
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  border: 1px solid #eeeeee;
+  margin: 20px 0;
+  float: right;
+}
+
+.checkout .content-checkout {
+  font-size: 14px;
+  line-height: 2;
+  color: #777;
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+
+.checkout .content-checkout .notices-wrapper .form-coupon-toggle .info {
+  color: #666666;
+  background: #f1fbfd;
+  padding: 7px 20px 7px 10px;
+  margin: 10px 0;
+  position: relative;
+  font-size: 13px;
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.checkout .content-checkout .notices-wrapper .form-coupon-toggle .info a.showcoupon {
+  color: #666666;
+}
+
+.checkout .content-checkout .notices-wrapper .form-coupon-toggle .info a.showcoupon:hover {
+  color: #651fff;
+}
+
+.checkout .content-checkout .notices-wrapper .form-coupon-toggle .checkout-coupon {
+  display: none;
+}
+
+.checkout .content-checkout .notices-wrapper .form-coupon-toggle .checkout-coupon .form-row {
+  padding: 3px 0;
+  margin: 0 0 6px;
+  font-size: 13px;
+  display: block;
+}
+
+.checkout .content-checkout .notices-wrapper .form-coupon-toggle .checkout-coupon .form-row input.checkout-discount-code {
+  width: 88%;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #eeeeee;
+  outline: none;
+  color: #666;
+  font-size: 12px;
+  background: #f9f9f9;
+  padding: 0 15px;
+}
+
+.checkout .content-checkout .notices-wrapper .form-coupon-toggle .checkout-coupon .form-row .append .btn-append {
+  border-radius: 20px;
+  background-color: #651fff;
+  border-color: #651fff;
+}
+
+.checkout .content-checkout .billing-fields h4 {
+  color: #676767;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.checkout .content-checkout .Order-address button {
+  background: transparent;
+  color: #666666;
+  font-size: 14px;
+  padding-right: 0;
+  padding-bottom: 20px;
+}
+
+.checkout .content-checkout .Order-address button span {
+  display: inline-block;
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 10px;
+  transition: 0.2s;
+}
+
+.checkout .content-checkout .Order-address button:hover span {
+  border-color: #651fff;
+  color: #651fff;
+  transition: 0.2s;
+}
+
+.checkout .content-checkout .order-review-heading {
+  font-size: 20px;
+  color: #757575;
+  padding: 0 15px;
+  margin: 40px 0 15px;
+  display: block;
+  float: right;
+  width: 100%;
+}
+
+.checkout .content-checkout .checkout-review-order table.checkout-review-order-table thead th {
+  border-bottom: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #6f6f6f;
+}
+
+.checkout .content-checkout .checkout-review-order table.checkout-review-order-table tbody .checkout-cart-item .product-price span.amount {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.checkout .content-checkout .checkout-review-order table.checkout-review-order-table tbody .checkout-cart-item .product-price span.amount span {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.checkout .content-checkout .checkout-review-order table.checkout-review-order-table tfoot .price del {
+  color: #979898;
+  font-size: 13px;
+  display: block;
+  width: 100%;
+}
+
+.checkout .content-checkout .checkout-review-order table.checkout-review-order-table tfoot .price ins {
+  color: #651fff !important;
+  font-size: 20px;
+  height: auto;
+  display: block;
+  text-decoration: none;
+}
+
+.checkout .content-checkout .checkout-review-order table.checkout-review-order-table tfoot .price ins span.amount span {
+  font-size: 12px;
+}
+
+.checkout .content-checkout .checkout-review-order ul.checkout-payment-methods {
+  background-color: #f9f9f9;
+  border-radius: 20px;
+}
+
+.checkout .content-checkout .checkout-review-order ul.checkout-payment-methods li.checkout-payment-method-item {
+  position: relative;
+  display: block;
+  padding: 0.75rem 1.25rem;
+}
+
+.checkout .content-checkout .checkout-review-order table.checkout-review-order-table tfoot td > span.shipping-destination {
+  display: block;
+  margin-right: 8px;
+  margin-top: 10px;
+  color: #666;
+  font-size: 12px;
+}
+
+.checkout .content-checkout .checkout-review-order ul.checkout-payment-methods > li.checkout-payment-method-item > .outline-radio {
+  width: auto;
+  margin-right: 4px;
+  position: relative;
+  min-width: 24px;
+  vertical-align: middle;
+}
+
+.checkout .content-checkout .checkout-review-order ul.checkout-payment-methods > li.checkout-payment-method-item > .outline-radio input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  z-index: 99;
+  width: 16px;
+  height: 16px;
+  top: -8px;
+  right: 0px;
+  cursor: pointer;
+}
+
+.checkout .content-checkout .checkout-review-order ul.checkout-payment-methods > li.checkout-payment-method-item > .outline-radio span.outline-radio-check {
+  cursor: pointer;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 0;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background-color: #a5a5a5;
+}
+
+.checkout .content-checkout .checkout-review-order ul.checkout-payment-methods > li.checkout-payment-method-item > .outline-radio input[type="radio"]:checked + .outline-radio-check {
+  background-color: #fff;
+  border: 1px solid #651fff;
+}
+
+.checkout .content-checkout .checkout-review-order ul.checkout-payment-methods > li.checkout-payment-method-item > .outline-radio .outline-radio-check:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  -webkit-transform: translate(50%, -50%);
+  transform: translate(50%, -50%);
+  background-color: #fff;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+}
+
+.checkout .content-checkout .checkout-review-order ul.checkout-payment-methods > li.checkout-payment-method-item > .outline-radio input[type="radio"]:checked + .outline-radio-check:before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  -webkit-transform: translate(50%, -50%);
+  transform: translate(50%, -50%);
+  background-color: #651fff;
+  width: 10px;
+  height: 10px;
+}
+
+.checkout .content-checkout .checkout-review-order ul.checkout-payment-methods > li.checkout-payment-method-item > span.shipping-destination {
+  display: block;
+  margin-right: 8px;
+  margin-top: 10px;
+  color: #666;
+  font-size: 12px;
+}
+
+.checkout .content-checkout .checkout-review-order .btn-Order {
+  background-color: #651fff;
+  border-color: #651fff;
+  border-radius: 20px;
+  font-size: 14px;
+  outline: none !important;
+}
+
+.checkout .content-checkout .thankyou-order-received {
+  font-size: 13px;
+  color: #999999;
+  padding-right: 10px;
+  margin-top: 5px;
+  display: block;
+}
+
+.checkout .content-checkout .order-overview {
+  background-color: #f9f9f9;
+  border-radius: 20px;
+  padding: 20px;
+  display: block;
+}
+
+.checkout .content-checkout .order-overview .order-overview-item {
+  margin-bottom: 5px;
+  display: block;
+}
+
+.checkout .content-checkout .order-overview .order-overview-item span {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.checkout .content-checkout .order-overview .order-overview-item span.amount span {
+  font-size: 12px;
+}
